@@ -9,5 +9,5 @@ React Kurulum
     git clone https://github.com/CyberWorldTr/film-bulucu.git
     Node Js İndir!
     npm install
-    npn start
+    npm start
     npm run build
