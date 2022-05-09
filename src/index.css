@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&display=swap");
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Montserrat", sans-serif;
+}
+
+:root {
+    --white: #f8f8f8;
+    --light: rgb(68, 80, 206);
+    --head-light: #f8f8f8;
+    --search-light: #ffff;
+    --grey: #232323;
+    --gradient-grey: #232323;
+    --skill-grey: #272727;
+    --theme: #8148eb;
+    --dark: #191919;
+    --purple: #8e61e2;
+    --logo-bg: none;
+    --light-purple: #bd6df2;
+    --shadow: none;
+    --icon-bg: #5555556e;
+    --gradient: linear-gradient(134deg, #836af0 0%, #8e49dc 99%);
+    --gradient-light: linear-gradient(99deg, #836af0 0%, #8e49dc 130%);
+    --input: #f0f0f0;
+    --filter: brightness(20%);
+    --bgoptionel: #636366;
+    --bgoptionel-hover: #5d5d618e;
+    --gradient-optionel: linear-gradient(134deg, rgb(68, 80, 206) 0%,rgb(119, 130, 243)  99%);
+    --gradient-hover: linear-gradient(134deg, rgb(119, 130, 243) 0%,rgb(68, 80, 206)  99%);
+}
+
+.light {
+    --light: rgb(109, 118, 214);
+    --light-logo:rgb(68, 80, 206);
+    --head-light: #313131;
+    --grey: #f8f8f8;
+    --gradient-grey: var(--gradient);
+    --skill-grey: #dfc7ff;
+    --dark: #f0ecec;
+    --logo-bg: #8e61e2;
+    --light-purple: #f8f8f8;
+    --shadow: -1px 3px 12px 0px #8b8b8b21;
+    --icon-bg: rgba(209, 209, 209, 0.233);
+    --input: #eeeeee;
+    --filter: contrast(15%);
+    --bgoptionel: #f0ecec;
+    --bgoptionel-hover: #ffffff8e;
+    --search-light: rgb(0, 0, 0);
+}
+
+#root {
+    color: var(--light);
+    background: var(--dark);
+    min-height: 100vh;
+    -webkit-transition: 300ms ease-in-out;
+    transition: 300ms ease-in-out;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.green {
+    color: rgb(39, 189, 39);
+}
+
+.orange {
+    color: orange;
+}
+
+.red {
+    color: rgb(189, 42, 42);
+}
+
+.fa-star {
+    color: rgb(255, 230, 0);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 8px;
+}
+
+div ::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0);
+}
+
+::-webkit-scrollbar-track {
+    background: var(--dark)
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--light);
+    border-radius: 5px;
+}
+.comments {
+    margin-top: 20px;
+  }
+  
+  .comments-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .comments-container {
+    margin-top: 40px;
+  }
+  
+  .comment-form-title {
+    font-size: 22px;
+  }
+  
+  .comment-form-textarea {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    border: 1px solid rgb(107, 114, 12);
+  }
+  
+  .comment-form-button {
+    font-size: 16px;
+    padding: 8px 16px;
+    background: rgb(59, 130, 246);
+    border-radius: 8px;
+    color: white;
+  }
+  
+  .comment-form-button:hover:enabled {
+    cursor: pointer;
+    background: rgb(37, 99, 235);
+  }
+  
+  .comment-form-button:disabled {
+    opacity: 0.7;
+    cursor: default;
+  }
+  
+  .comment-form-cancel-button {
+    margin-left: 10px;
+  }
+  
+  .comment {
+    display: flex;
+    margin-bottom: 28px;
+  }
+  
+  .comment-image-container {
+    margin-right: 12px;
+  }
+  
+  .comment-image-container img {
+    border-radius: 50px;
+  }
+  
+  .comment-right-part {
+    width: 100%;
+  }
+  
+  .comment-content {
+    display: flex;
+  }
+  
+  .comment-author {
+    margin-right: 8px;
+    font-size: 20px;
+    color: rgb(59, 130, 246);
+  }
+  
+  .comment-text {
+    font-size: 18px;
+  }
+  
+  .comment-actions {
+    display: flex;
+    font-size: 12px;
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+    margin-top: 8px;
+  }
+  
+  .comment-action {
+    margin-right: 8px;
+  }
+  
+  .comment-action:hover {
+    text-decoration: underline;
+  }
+  
+  .replies {
+    margin-top: 20px;
+  }
